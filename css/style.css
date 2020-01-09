@@ -12,23 +12,11 @@ html, body {
   overflow: hidden;
 }
 
-body {
-  background-image: radial-gradient(rgba(0, 0, 0, 0.1) 20%, transparent 20%), radial-gradient(rgba(0, 0, 0, 0.1) 20%, transparent 20%);
-  background-color: var(--bg);
-  background-position: 0 0, 20px 20px;
-  background-size: 40px 40px;
-}
 
-.content {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  -webkit-transform: translate(-90px, -50%);
-          transform: translate(-90px, -50%);
-}
 
 h1,
 h2 {
+  text-align: center;
   position: relative;
   margin: 0;
   color: var(--text);
@@ -41,10 +29,7 @@ h2 {
 }
 
 h1 span {
-  position: absolute;
-  left: 0;
-  top: 0;
-  display: inline-block;
+
   margin-top: 60px;
   opacity: 0;
   font-size: 0px;
@@ -106,8 +91,7 @@ h1 span:nth-child(8) {
 
 h2 {
   position: absolute;
-  top: 160px;
-  left: 50%;
+  left: 47%;
   font-size: 50px;
   letter-spacing: -4px;
   -webkit-transform: translateX(-120px);
