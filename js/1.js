@@ -4,7 +4,7 @@ if (document.getElementById('evanyou')) {
     pr = window.devicePixelRatio || 1,
     w = window.innerWidth,
     h = window.innerHeight,
-    f = 90,
+    f = 50,
     q,
     m = Math,
     r = 0,
