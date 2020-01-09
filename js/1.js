@@ -6,7 +6,7 @@
         pr = window.devicePixelRatio || 1,
         w = window.innerWidth,
         h = window.innerHeight,
-        f = 90,
+        f = 20,
         q,
         m = Math,
         r = 0,
