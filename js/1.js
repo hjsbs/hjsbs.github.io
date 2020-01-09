@@ -6,7 +6,7 @@
         pr = window.devicePixelRatio || 1,
         w = window.innerWidth,
         h = window.innerHeight,
-        f = 5,
+        f = 60,
         q,
         m = Math,
         r = 0,
@@ -19,7 +19,7 @@
     x.globalAlpha = 0.6
     function i(){
         x.clearRect(0,0,w,h)
-        q=[{x:0,y:h*.5+f},{x:0,y:h*.5-f}]
+        q=[{x:0,y:h*.4+f},{x:0,y:h*.4-f}]
         while(q[1].x<w+f) d(q[0], q[1])
     }
     function d(i,j){   
