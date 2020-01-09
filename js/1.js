@@ -4,7 +4,7 @@ if (document.getElementById('evanyou')) {
     pr = window.devicePixelRatio || 1,
     w = window.innerWidth,
     h = window.innerHeight,
-    f = 90,
+    f = 300,
     q,
     m = Math,
     r = 0,
@@ -17,7 +17,7 @@ if (document.getElementById('evanyou')) {
   x.globalAlpha = 0.6
   function evanyou () {
     x.clearRect(0, 0, w, h)
-    q = [{ x: 0, y: h * .2 + f }, { x: 0, y: h * .2 - f }]
+    q = [{ x: 0, y: h * .9 + f }, { x: 0, y: h * .9 - f }]
     while (q[1].x < w + f) d(q[0], q[1])
   }
   function d (i, j) {
