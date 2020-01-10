@@ -1,15 +1,11 @@
-section{
-	display: none;
-}
-
-#sect_one{
+#bb{
 	position: fixed;
 	width: 100%;
 	height: 100%;
 	background: var(--colorbg);
 	transition: all .5s;
 }
-.video_1{
+.aa{
 	width: 400px;
 	height: 400px;
 	position: absolute;
