@@ -23,10 +23,10 @@ h1{
 }
 
 h1 span {
-  transition: all calc( var(--duration) * 0.4 ) var(--easing) 100ms;
+ // transition: all calc( var(--duration) * 0.4 ) var(--easing) 100ms;
   -webkit-text-stroke-width: 1px;
 }
 h1 span.animate-in {
-  font-size: 43px;
+  font-size: 45px;
 }
 
