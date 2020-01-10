@@ -19,7 +19,7 @@ h1{
   -webkit-text-stroke-color: var(--stroke);
   text-align: center;
   font-family: 'Luckiest Guy', cursive;
-  line-height: 1;
+  line-height: 2;
 }
 
 h1 span {
