@@ -1,6 +1,6 @@
 {
-	"name": "Hi，MathGod",
-	"short_name": "Hi, Mathgod",
+	"name": "Hi,MathGod",
+	"short_name": "MathGod",
 	"start_url": "/",
 	"display": "standalone",
 	    "theme_color": "#fff",
